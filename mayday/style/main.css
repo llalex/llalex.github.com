@@ -302,33 +302,33 @@ hr {
     font-size: 55px; }
    
   .tile.tile-2 .tile-inner {
-    background: #bedbf0 url('../imgs/01.jpg');
+    background: #bedbf0 url('http://ww4.sinaimg.cn/mw690/94b4e46agw1eer5ajkuquj205w05wdgt.jpg');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
     
   .tile.tile-4 .tile-inner {
-    background: #bedbf0 url('../imgs/02.jpg');
+    background: #bedbf0 url('http://ww1.sinaimg.cn/mw690/94b4e46agw1eer5ay8q71j205w05w759.jpg');
     background-size: cover;    
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
     
   .tile.tile-8 .tile-inner {
-    background: #bedbf0 url('../imgs/03.jpg');
+    background: #bedbf0 url('http://ww1.sinaimg.cn/mw690/94b4e46agw1eer5bfjm9tj205w05w3zb.jpg');
     background-size: cover;}
     
   .tile.tile-16 .tile-inner {
-    background: #bedbf0 url('../imgs/04.jpg');
+    background: #bedbf0 url('http://ww1.sinaimg.cn/mw690/94b4e46agw1eer5ck8yf1j205w05wdgg.jpg');
     background-size: cover;}
     
   .tile.tile-32 .tile-inner {
-    background: #bedbf0 url('../imgs/05.jpg');
+    background: #bedbf0 url('http://ww3.sinaimg.cn/mw690/94b4e46agw1eer5d8qk72j205w05wq3r.jpg');
     background-size: cover;}
     
   .tile.tile-64 .tile-inner {
-    background: #bedbf0 url('../imgs/06.jpg');
+    background: #bedbf0 url('http://ww2.sinaimg.cn/mw690/94b4e46agw1eer5dmysdej205w05w0tm.jpg');
     background-size: cover;}
     
   .tile.tile-128 .tile-inner {
-    background: #bedbf0 url('../imgs/07.jpg');
+    background: #bedbf0 url('http://ww4.sinaimg.cn/mw690/94b4e46agw1eer5e2alslj205w05wgma.jpg');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
@@ -337,7 +337,7 @@ hr {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
 
-    background: #bedbf0 url('../imgs/08.jpg');
+    background: #bedbf0 url('http://ww4.sinaimg.cn/mw690/94b4e46agw1eer5evwr42j205w05wab1.jpg');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
@@ -346,7 +346,7 @@ hr {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
 
-    background: #bedbf0 url('../imgs/09.jpg');
+    background: #bedbf0 url('http://ww4.sinaimg.cn/mw690/94b4e46agw1eer5fa19wrj205w05waay.jpg');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
@@ -354,7 +354,7 @@ hr {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    background: #bedbf0 url('../imgs/10.jpg');
+    background: #bedbf0 url('http://ww2.sinaimg.cn/mw690/94b4e46agw1eer5fnv4m7j205w05w3yw.jpg');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
@@ -363,7 +363,7 @@ hr {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
 
-    background: #bedbf0 url('../imgs/11.jpg');
+    background: #bedbf0 url('http://ww1.sinaimg.cn/mw690/94b4e46agw1eer5g1ougtj205w05wwf9.jpg');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
@@ -372,7 +372,7 @@ hr {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
 
-    background: #bedbf0 url('../imgs/12.jpg');
+    background: #bedbf0 url('http://ww1.sinaimg.cn/mw690/94b4e46agw1eer5gfnszkj205w05wq3d.jpg');
     background-size: cover;    
     font-size: 30px; }
     @media screen and (max-width: 480px) {

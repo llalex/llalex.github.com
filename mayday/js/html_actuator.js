@@ -133,7 +133,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 };
 
 HTMLActuator.prototype.message = function (won) {
-  var mytxt=new Array(9);
+  var mytxt=new Array(11);
   mytxt[0]="听听第一张创作专辑吧";
   mytxt[1]="和我一起爱情万岁";
   mytxt[2]="我们活在这人生海海";
@@ -148,7 +148,7 @@ HTMLActuator.prototype.message = function (won) {
 
   var text3 = function (m) { var r = 0; while (m > 1) r++, m >>= 1; return r; }
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "我要和你一起走过一千个世纪！" : mytxt[text3(maxscore)-2];
+  var message = won ? "我要和你一起走过一千个世纪！" : mytxt[text3(maxscore)-1];
 
   if (typeof ga !== "undefined") {
     ga("send", "event", "game", "end", type, this.score);
@@ -172,13 +172,13 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   var tweet = document.createElement("a");
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
-  tweet.setAttribute("data-via", "oprilzeng");
-  tweet.setAttribute("data-url", "http://oprilzeng.github.io/2048");
-  tweet.setAttribute("data-counturl", "http://oprilzeng.github.io/2048/");
+  tweet.setAttribute("data-via", "mayday");
+  tweet.setAttribute("data-url", "http://llalex.github.io/mayday/");
+  tweet.setAttribute("data-counturl", "http://llalex.github.io/mayday/");
   tweet.textContent = "Tweet";
 
-  var text = "I scored " + this.score + " points at PRC2048, a game where you " +
-             "join numbers to score high! #PRC2048";
+  var text = "I scored " + this.score + " points at Mayday2048, a game where you " +
+             "join numbers to score high! #Mayday2048";
   tweet.setAttribute("data-text", text);
 
   return tweet;
