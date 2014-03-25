@@ -64,7 +64,7 @@ HTMLActuator.prototype.addTile = function (tile) {
   // We can't use classlist because it somehow glitches when replacing classes
   var classes = ["tile", "tile-" + tile.value, positionClass];
 
-  if (tile.value > 2048) classes.push("tile-super");
+  if (tile.value > 1048576) classes.push("tile-super");
 
   this.applyClasses(wrapper, classes);
 
@@ -133,23 +133,32 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 };
 
 HTMLActuator.prototype.message = function (won) {
-  var mytxt=new Array(11);
-  mytxt[0]="听听第一张创作专辑吧";
-  mytxt[1]="和我一起爱情万岁";
-  mytxt[2]="我们活在这人生海海";
-  mytxt[3]="我们的168演唱会";
-  mytxt[4]="一起坐时光机回到从前";
-  mytxt[5]="神的孩子都在跳舞";
-  mytxt[6]="属于你的D.N.A";
-  mytxt[7]="我们为爱而生";
-  mytxt[8]="你的后青春期的诗";
-  mytxt[9]="第二人生";
-  mytxt[10]="一起坐上诺亚方舟";
+  var mytxt=new Array(20);
+  mytxt[0]="听听第一张创作专辑（1999）";
+  mytxt[1]="第168场演唱会（1999）";
+  mytxt[2]="就让我吻你吻你吻你（2000）";
+  mytxt[3]="十万青年站出来（2000）";
+  mytxt[4]="我们活在这人生海海（2001）";
+  mytxt[5]="你要去哪里 请不要走（2001）";
+  mytxt[6]="We are Mayday（2003）";
+  mytxt[7]="一起去天空之城吧（2003）";
+  mytxt[8]="我愿意付出所有来换一个时光机（2003）";
+  mytxt[9]="神的孩子都在跳舞（2004）";
+  mytxt[10]="Final Home 当我们混在一起（2004-06）";
+  mytxt[11]="如果你快乐不是为我（2005）"; 
+  mytxt[12]="只因我为爱而生（2006）"; 
+  mytxt[13]="离开地球表面（2007-08）"; 
+  mytxt[14]="后青春期的诗（2008）"; 
+  mytxt[15]="属于你的D.N.A（2009-10）"; 
+  mytxt[16]="你的第二人生（2011）"; 
+  mytxt[17]="多遥远多纠结多想念（2011）"; 
+  mytxt[18]="一起登上诺亚方舟（2011-13）"; 
+  mytxt[19]="一步步走过最美心愿（通关了啦！~\(≧▽≦)/~)"; 
 
   var text3 = function (m) { var r = 0; while (m > 1) r++, m >>= 1; return r; }
   
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "我要和你一起走过一千个世纪！" : mytxt[text3(maxscore)-1];
+  var message = won ? "一步步走过最美心愿（通关了啦！~\(≧▽≦)/~)" : mytxt[text3(maxscore)-1];
 
   if (typeof ga !== "undefined") {
     ga("send", "event", "game", "end", type, this.score);
